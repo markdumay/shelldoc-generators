@@ -1,0 +1,8 @@
+# dotenv environment variables file
+.env
+
+# Local filesystem files
+.DS_Store
+
+# Visual Studio Code
+.vscode
