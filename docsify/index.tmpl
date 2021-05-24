@@ -19,6 +19,7 @@
       loadSidebar: true,
       subMaxLevel: 2,
       search: 'auto',
+      {{if .ThemeColor}}themeColor: '{{.ThemeColor}}',{{end}}
       plugins: [
         function(hook) {
           var footer = [
