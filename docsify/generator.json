@@ -12,22 +12,22 @@
 		"logo": "",
 		"templates": [
 			{
-				"template": "coverpage.tmpl",
+				"input": "coverpage.tmpl",
 				"output": "_coverpage.md",
 				"type": "project"
 			},
 			{
-				"template": "sidebar.tmpl",
+				"input": "sidebar.tmpl",
 				"output": "_sidebar.md",
 				"type": "project"
 			},
 			{
-				"template": "index.tmpl",
+				"input": "index.tmpl",
 				"output": "index.html",
 				"type": "project"
 			},
 			{
-				"template": "page.tmpl",
+				"input": "page.tmpl",
 				"output": "${name}.md",
 				"type": "file"
 			}
