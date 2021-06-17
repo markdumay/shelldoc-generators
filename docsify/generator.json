@@ -3,28 +3,31 @@
 	"generator": 
 	{
 		"name": "Docsify",
-		"version": "0.2.0",
+		"version": "0.2.1",
 		"maintainer": "Mark Dumay <mark@markdumay.com>",
 		"origin": "https://github.com/markdumay/shelldoc-generators/docsify",
 		"description": "Docsify is a documentation site generator that generates content on the fly. It smartly loads and parses Markdown files and displays them as a website. More information is available on https://docsify.js.org.",
+		"outDir": "docs/",
+		"themeColor": "",
+		"logo": "",
 		"templates": [
 			{
-				"template": "coverpage.tmpl",
+				"input": "coverpage.tmpl",
 				"output": "_coverpage.md",
 				"type": "project"
 			},
 			{
-				"template": "sidebar.tmpl",
+				"input": "sidebar.tmpl",
 				"output": "_sidebar.md",
 				"type": "project"
 			},
 			{
-				"template": "index.tmpl",
+				"input": "index.tmpl",
 				"output": "index.html",
 				"type": "project"
 			},
 			{
-				"template": "page.tmpl",
+				"input": "page.tmpl",
 				"output": "${name}.md",
 				"type": "file"
 			}
