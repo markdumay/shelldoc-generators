@@ -3,6 +3,5 @@
 {{- range .Artifacts}}
 {{if .Title}}* [{{ .Title}}]({{.Output -}}){{end}}
 {{- end}}
-{{- range .Project.Files}}
-* [{{ .Name}}]({{.Name -}}.md)
-{{- end}}
+{{- range .Project.Files}}* [{{ .Name}}]({{.Name -}}.md)
+{{end}}
