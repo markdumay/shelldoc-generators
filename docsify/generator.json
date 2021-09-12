@@ -7,35 +7,36 @@
 		"maintainer": "Mark Dumay <mark@markdumay.com>",
 		"origin": "https://github.com/markdumay/shelldoc-generators/docsify",
 		"description": "Docsify is a documentation site generator that generates content on the fly. It smartly loads and parses Markdown files and displays them as a website. More information is available on https://docsify.js.org.",
+		"path": "$workspaceRoot/generators/docsify",
 		"outDir": "docs/",
 		"themeColor": "",
 		"logo": "",
 		"templates": [
 			{
-				"input": "coverpage.tmpl",
-				"output": "_coverpage.md",
-				"type": "project"
+				"source": "coverpage.tmpl",
+				"dest": "_coverpage.md",
+				"format": "project"
 			},
 			{
-				"input": "sidebar.tmpl",
-				"output": "_sidebar.md",
-				"type": "project"
+				"source": "sidebar.tmpl",
+				"dest": "_sidebar.md",
+				"format": "project"
 			},
 			{
-				"input": "index.tmpl",
-				"output": "index.html",
-				"type": "project"
+				"source": "index.tmpl",
+				"dest": "index.html",
+				"format": "project"
 			},
 			{
-				"input": "page.tmpl",
-				"output": "${name}.md",
-				"type": "file"
+				"source": "page.tmpl",
+				"dest": "${name}.md",
+				"format": "file"
 			}
 		],
 		"artifacts": [
 			{
-				"input": ".nojekyll",
-				"output": ".nojekyll"
+				"source": ".nojekyll",
+				"dest": ".nojekyll"
 			}
 		]
 	}
