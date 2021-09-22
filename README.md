@@ -91,6 +91,16 @@ shelldoc install docsify
 Visit the [main repository][shelldoc_repository] of ShellDoc for further usage instructions.
 
 ## Contributing
+shelldoc-generators welcomes contributions of any kind, including new generator configurations. Please consider the guidelines in this section when contributing a new generator.
+
+### Guidelines
+- Generators in this repository are accepted only if they come with an Open Source license, that allows for the generator to be freely used, modified, and shared. Visit the [Open Source Initiative][open_source_url] for more details.
+- The root folder of the generator should include a valid configuration file called `generator.json`.
+- Submissions should include an instructive README. Please provide at least an English translation of the README.
+- When adapting an existing generator for a derivative work, be sure the requirements of the original generator's license are met.
+- When submitting a generator you are expected to maintain it as well and to ensure it is compatible with the latest release of ShellDoc.
+
+### Submitting a Generator
 1. Clone the repository and create a new branch 
     ```console
     $ git checkout https://github.com/markdumay/shelldoc-generators.git -b name_for_new_branch
@@ -109,6 +119,7 @@ The ShellDoc Generators codebase is released under the [MIT license][license]. T
 [cc-by-nc-4.0]: https://creativecommons.org/licenses/by-nc/4.0/
 [docsify_url]: https://docsify.js.org
 [go_template]: https://golang.org/pkg/text/template/
+[open_source_url]: https://opensource.org/licenses
 
 <!-- MARKDOWN MAINTAINED LINKS -->
 <!-- TODO: add blog link
