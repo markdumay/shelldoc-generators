@@ -98,7 +98,7 @@ shelldoc-generators welcomes contributions of any kind, including new generator 
 - The root folder of the generator should include a valid configuration file called `generator.json`.
 - Submissions should include an instructive README. Please provide at least an English translation of the README.
 - When adapting an existing generator for a derivative work, be sure the requirements of the original generator's license are met.
-- When submitting a generator you are expected to maintain it as well and to ensure it is compatible with the latest release of ShellDoc.
+- When submitting a generator you are expected to maintain it as well. Please ensure your generator is compatible with the latest release of ShellDoc.
 
 ### Submitting a Generator
 1. Clone the repository and create a new branch 
