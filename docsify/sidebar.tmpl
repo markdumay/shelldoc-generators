@@ -3,5 +3,5 @@
 {{- range .Artifacts}}
 {{if .Title}}* [{{.Title}}]({{.Output -}} "shelldoc • {{.Title}}"){{end}}
 {{- end}}
-{{- range .Project.Files}}* [{{.Name}}]({{.Name -}}.md "shelldoc • {{.Name}}")
+{{- range .Project.Documents}}* [{{.Name}}]({{.Name -}}.md "shelldoc • {{.Name}}")
 {{end}}
