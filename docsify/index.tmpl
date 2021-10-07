@@ -17,7 +17,8 @@
       coverpage: true,
       maxLevel: 2,
       loadSidebar: true,
-      subMaxLevel: 2,
+      subMaxLevel: 3,
+      sidebarDisplayLevel: 1,
       search: 'auto',
       {{if .ThemeColor}}themeColor: '{{.ThemeColor}}',{{end}}
       plugins: [
@@ -25,7 +26,7 @@
           var footer = [
             '<hr/>',
             '<footer>',
-            '<span>Powered by <a href="https://github.com/markdumay/shelldoc" target="_blank">ShellDoc</a> and <a href="https://github.com/docsifyjs/docsify" target="_blank">Docsify</a>.</span>',
+            '<span>Powered by <a href="https://github.com/markdumay/shelldoc" target="_blank">ShellDoc</a> and <a href="https://docsify.js.org" target="_blank">Docsify</a>.</span>',
             '</footer>'
           ].join('');
 
@@ -41,5 +42,6 @@
   <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-go.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-json.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
 </body>
 </html>
