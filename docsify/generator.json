@@ -7,7 +7,6 @@
 		"maintainer": "Mark Dumay <mark@markdumay.com>",
 		"origin": "https://github.com/markdumay/shelldoc-generators/docsify",
 		"description": "Docsify is a documentation site generator that generates content on the fly. It smartly loads and parses Markdown files and displays them as a website. More information is available on https://docsify.js.org.",
-		"path": "$workspaceRoot/generators/docsify",
 		"outDir": "docs/",
 		"themeColor": "",
 		"logo": "",
