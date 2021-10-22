@@ -95,7 +95,7 @@ shelldoc-themes welcomes contributions of any kind, including new theme configur
 
 ### Guidelines
 - Themes in this repository are accepted only if they come with an Open Source license, that allows for the theme to be freely used, modified, and shared. Visit the [Open Source Initiative][open_source_url] for more details.
-- The root folder of the theme should include a valid configuration file called `generator.json`.
+- The root folder of the theme should include a valid configuration file called `theme.json`.
 - Submissions should include an instructive README. Please provide at least an English translation of the README.
 - When adapting an existing theme for a derivative work, be sure the requirements of the original theme's license are met.
 - When submitting a theme you are expected to maintain it as well. Please ensure your theme is compatible with the latest release of ShellDoc.
