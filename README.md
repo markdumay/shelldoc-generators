@@ -54,10 +54,10 @@ Each ShellDoc theme uses [Go templates][go_template] to generate text output.
 ShellDoc needs to be installed on your local machine. Visit the [main repository][shelldoc_repository] for more details.
 
 ## Deployment
-ShellDoc provides the following built-in commands to manage the installation of the generators.
+ShellDoc provides the following built-in commands to manage the installation of the themes.
 
 ### Browse
-Run the `browse` command to show the generators available for installation.
+Run the `browse` command to show the themes available for installation.
 
 ```console
 shelldoc browse
