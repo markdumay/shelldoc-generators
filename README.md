@@ -126,6 +126,6 @@ The ShellDoc Themes codebase is released under the [MIT license][license]. The R
 [blog]: https://markdumay.com
 -->
 [blog]: https://github.com/markdumay
-[license]: https://github.com/markdumay/shelldoc-themes/blob/main/LICENSE
-[shelldoc_repository]: https://github.com/markdumay/shelldoc.git
-[repository]: https://github.com/markdumay/shelldoc-themes.git
+[license]: https://github.com/shelldoc/themes/blob/main/LICENSE
+[shelldoc_repository]: https://github.com/shelldoc/shelldoc.git
+[repository]: https://github.com/shelldoc/themes.git
